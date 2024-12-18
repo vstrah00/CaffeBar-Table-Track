@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="modernPrimary">#00BFA5</color>
+    <color name="modernBlack">#191414</color>
+    <color name="modernFullBlack">#000000</color>
+    <color name="modernWhite">#FFFFFF</color>
+    <color name="modernGray">#535353</color>
+    <color name="modernCharcoal">#282828</color>
+    <color name="modernRed">#FF4500</color>
+    <color name="modernPink">#FF69B4</color>
+    <color name="fullyTransparentWhite">#00FFFFFF</color>
+    <color name="semiTransparentWhite">#80FFFFFF</color>
+    <color name="fullyOpaqueWhite">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

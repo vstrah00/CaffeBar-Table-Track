@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/values/styles.xml -->
+<resources>
+
+    <style name="btnGreen">
+        <item name="android:background">@drawable/btn_important</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/btnTextSize</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:textColor">@color/modernBlack</item>
+        <!-- Add more attributes as needed -->
+    </style>
+
+    <style name="btnGreenSmall">
+        <item name="android:background">@drawable/btn_important</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:textColor">@color/modernBlack</item>
+        <!-- Add more attributes as needed -->
+    </style>
+
+    <style name="btnRegularStyle">
+        <item name="android:background">@drawable/btn_regular</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/modernWhite</item>
+        <item name="android:textSize">@dimen/btnTextSize</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <!-- Add more attributes as needed -->
+    </style>
+
+    <style name="PopupDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="TextViewPopup">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/modernWhite</item>
+    </style>
+
+    <style name="EditTextPopup">
+        <item name="android:textColorHint">@color/modernGray</item>
+        <item name="android:background">@null</item>
+        <!-- Add any other EditText attributes here -->
+    </style>
+
+    <style name="BarTableStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/circle_background</item> <!-- Background drawable for circular shape -->
+        <item name="android:textColor">@color/modernBlack</item> <!-- Text color -->
+        <item name="android:padding">8dp</item> <!-- Padding around the text -->
+    </style>
+
+    <style name="Widget.Theme.TableCount.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+</resources>
